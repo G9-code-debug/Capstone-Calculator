@@ -1,0 +1,15 @@
+body{
+    background: linear-gradient(rgb(195, 255, 161) 0%, rgb(123, 255, 0) 83.333%);
+}
+#add{
+    color: forestgreen;
+}
+#subtract{
+    color: rgb(98, 158, 255);
+}
+#multiply{
+    color: rgb(255, 105, 67);
+}
+#division{
+    color: rgb(98, 158, 255);
+}

@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+        <br><br>
+        <center>
+            <h1>Calculator</h1>
+            <br><br>
+            <section id="add">
+                <h2>
+                    Addition
+                </h2>
+                <br>
+                <input id="add_first_number"placeholder="First Number">
+                <span><input id="add_second_number" placeholder="Second Number"></span>
+                <br><br>
+                <button id="add_btn" class="btn btn-success" onclick="add()">Add</button>
+                <h2 id="add_answer"></h2>
+            </section>
+            <br><br><br>
+            <section id="subtract">
+                <h2>Subtraction</h2>
+                <br>
+                <input placeholder="First Number" id="minus_first_number">
+                <span><input id="minus_second_number" placeholder="Second Number"></span>
+                <br><br>
+                <button id="minus_btn" class="btn btn-primary" onclick="subtract()">Subtract</button>
+                <h2 id="subtract_answer"></h2>
+            </section>
+            <br><br><br>
+            <section id="multiply">
+                <h2>Multiplication</h2>
+                <br>
+                <input placeholder="First Number" id="multiply_first_number">
+                <span><input placeholder="Second Number" id="multiply_second_number"></span>
+                <br><br>
+                <button id="multiply_btn" class="btn btn-danger" onclick="multiply()">Multiply</button>
+                <h2 id="multiply_answer"></h2>
+            </section>
+            <br><br><br>
+            <section id="division">
+                <h2>Division</h2>
+                <br>
+                <input placeholder="First Number" id="division_first_Number">
+                <span><input placeholder="Second Number" id="division_second_number"></span>
+                <br><br>
+                <button id="division_btn" class="btn btn-info" onclick="divide()">Divide</button>
+                <h2 id="division_answer"></h2>
+            </section>
+        </center>
+        <br><br><br><br>
+    </body>
+</html>
